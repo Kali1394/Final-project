@@ -124,6 +124,7 @@ div.book {
 
 table, th, td {
     border: 2px solid #8ed1e6;
+    border-spacing: 1px;
     text-align: center;
     justify-content: center;
     padding: 18px;
@@ -133,8 +134,9 @@ table, th, td {
 
 table.center {
     width:70%; 
-    margin-left:15%; 
-    margin-right:15%;
+    text-align: justify;
+    margin-left:auto; 
+    margin-right:auto;
   }
 
 .tb-container {
@@ -240,7 +242,7 @@ body.img {
     background-size: cover;
     background-repeat: no-repeat;
     width: 75%;
-    height: 360px;
+    height: 320px;
     position: relative;
     margin: 0 auto;
 }
@@ -280,4 +282,63 @@ img {
     margin: 30px;
     padding: 10px;
 
+}
+
+div.ft-bcg {
+    background-color: #ffffffbb;
+    border: 1px solid black;
+    border-radius: px;
+    padding: 14px;
+    margin-top: 16px;
+}
+
+.ft-text-1 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #4d63f5;
+    padding: 5px;
+    margin: 5px;
+}
+
+.ft-link {
+    text-decoration: none;
+    color: #090956;
+}
+
+.ft-item {
+    margin: 5px;
+    padding: 5px;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.ft-text-2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    color: #4d63f5;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+.flex-card {
+    display: flex;
+    background-color: transparent;
+    justify-content:center;
+    text-align: center;
+    margin: 30px;
+}
+
+.flex-card > div {
+    margin: 50px;
+    padding: 20px;
+}
+
+div.rew {
+    border: 1px solid black;
+    border-radius: 7px;
 }

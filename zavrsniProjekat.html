@@ -2,62 +2,85 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./zavrsniProjekat.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accommodation on Vis island</title>
+  <link rel="stylesheet" href="./zavrsniProjekat.css">
 </head>
 
 <body class="blur img">
-    <header class="head-img">
-        <h1 class="head-text">Your perfect home away from home</h1>
-    </header>
-    <section style="margin: 50px;">
-        <h3 style="text-align: center"><span class="span-1">Welcome to Cozy Seaview Apartment in Vis</span></h3>
-        <div class="flex-container">
-            <div><img src="./vis-apt-3.jpg" alt="apartment interier"></div>
-            <div style="align-self: center; flex-basis: 400px">
-                <p class="h3">Warm minimalism with all necessary ameneties to make your holiday enjoyable</p>
-            </div>
-        </div>
-        <div class="flex-container">
-            <div style="align-self: center; flex-basis: 400px">
-                <p class="h3">Enjoy memorable sunsets while sipping your favorite glass of wine</p>
-            </div>
-            <div><img src="./vis-apt-2.jpg" alt="apartment terrace"></div>
-        </div>
-    </section>
-    <hr style="margin:25px">
-    <section>
-        <h4><span class="span-2">Prices per night</span></h4>
-      <table class="center">
-        <tr>
-            <th></th>
-            <th>May/October</th>
-            <th>June/September</th>
-            <th>July/August</th>
-          </tr>
-          <tr>
-            <td>2 pax</td>
-            <td>40 eur</td>
-            <td>60 eur</td>
-            <td>80 eur</td>
-          </tr>
-          <tr>
-            <td>3 pax</td>
-            <td>50 eur</td>
-            <td>70 eur</td>
-            <td>90 eur</td>
-          </tr>
-      </table>
-      <div class="book">
-      <p class="h4">For booking and all other information, please contact us via <a href="mailto:milena.marcetic1994@gmail.com">e-mail.</a></p>
+  <header class="head-img">
+    <h1 class="head-text">Your perfect home away from home</h1>
+  </header>
+  <section style="margin: 50px;">
+    <h3 style="text-align: center"><span class="span-1">Welcome to Cozy Seaview Apartment in Vis</span></h3>
+    <div class="flex-container">
+      <div><img src="./vis-apt-3.jpg" alt="apartment interier"></div>
+      <div style="align-self: center; flex-basis: 400px">
+        <p class="h3">Warm minimalism with all necessary ameneties to make your holiday enjoyable</p>
+      </div>
     </div>
-    </section>
-    <footer>
-      
-    </footer>
+    <div class="flex-container">
+      <div style="align-self: center; flex-basis: 400px">
+        <p class="h3">Enjoy memorable sunsets while sipping your favorite glass of wine</p>
+      </div>
+      <div><img src="./vis-apt-2.jpg" alt="apartment terrace"></div>
+    </div>
+  </section>
+  <hr style="margin:25px">
+  <section>
+    <h4><span class="span-2">Prices per night</span></h4>
+    <table class="center">
+      <tr>
+        <th></th>
+        <th>May/October</th>
+        <th>June/September</th>
+        <th>July/August</th>
+      </tr>
+      <tr>
+        <td>2 pax</td>
+        <td>40 eur</td>
+        <td>60 eur</td>
+        <td>80 eur</td>
+      </tr>
+      <tr>
+        <td>3 pax</td>
+        <td>50 eur</td>
+        <td>70 eur</td>
+        <td>90 eur</td>
+      </tr>
+    </table>
+    <div class="book">
+      <p class="h4">For booking and all other information, please contact us via <a
+          href="mailto:milena.marcetic1994@gmail.com">e-mail.</a></p>
+    </div>
+  </section>
+  <footer>
+    <div class="ft-bcg flex-card">
+      <div>
+        <p class="ft-text-1">Useful links:</p>
+        <ul>
+          <li class="ft-item"><a href="https://www.tz-vis.hr/" target="_blank">Tourist community of Vis island</a></li>
+          <li class="ft-item"><a href="https://croatia.hr/en-gb/where-to-go" target="_blank">Croatia full of life</a></li>
+        </ul>
+      </div>
+      <div class="rew">
+        <p class="ft-text-2">Feel free to leave a review:</p><br>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br>
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" value=""><br>
+          <label for="message">Review:</label><br><br>
+          <textarea id="message" name="message" cols="20" rows="3"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
